@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/01/2022, 18:45:52
+    Author     : flavi
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    background-color: rgba(19, 18, 18, 0.96);
+}
+body{
+    text-align: center;
+    padding-top: 70px;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.item_menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    color: #4CAF50;
+}
+footer{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 230px;
+}
+.a_footer{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
+}
